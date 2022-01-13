@@ -1,4 +1,4 @@
-package pl.infoshare.aop;
+package pl.codementors.aop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package pl.infoshare.aop.broken;
+package pl.codementors.aop.broken;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

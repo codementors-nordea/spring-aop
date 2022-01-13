@@ -1,4 +1,4 @@
-package pl.infoshare.aop.retry;
+package pl.codementors.aop.retry;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class RetryAspect {
 
-    @Around("@annotation(pl.infoshare.aop.retry.Retry)")
+    @Around("@annotation(pl.codementors.aop.retry.Retry)")
     public Object retryCall(ProceedingJoinPoint joinPoint) throws Throwable {
         var methodSignature = (MethodSignature) joinPoint.getSignature();
         var retryAnnotation = methodSignature.getMethod().getAnnotation(Retry.class);

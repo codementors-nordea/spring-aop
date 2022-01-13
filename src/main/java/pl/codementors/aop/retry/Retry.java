@@ -1,4 +1,4 @@
-package pl.infoshare.aop.retry;
+package pl.codementors.aop.retry;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

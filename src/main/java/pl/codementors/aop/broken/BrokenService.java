@@ -1,7 +1,7 @@
 package pl.codementors.aop.broken;
 
 import org.springframework.stereotype.Component;
-import pl.infoshare.aop.retry.Retry;
+import pl.codementors.aop.retry.Retry;
 
 @Component
 public class BrokenService {

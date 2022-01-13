@@ -1,4 +1,4 @@
-package pl.infoshare.aop.broken;
+package pl.codementors.aop.broken;
 
 public class BrokenException extends RuntimeException {
     public BrokenException() {
